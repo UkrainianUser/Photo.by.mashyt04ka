@@ -9,10 +9,12 @@
 .nav {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 .nav__list {
 	display: flex;
 	gap: 30px;
+	align-items: center;
 }
 .logo {
 	font-family: "Pacifico";
@@ -20,6 +22,7 @@
 	font-size: 26px;
 	line-height: 1.19;
 	text-decoration: none;
+	color: #8bb4d1;
 }
 .nav__link {
 	text-transform: uppercase;
