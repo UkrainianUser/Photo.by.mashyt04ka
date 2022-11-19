@@ -23,6 +23,23 @@
       <div class="header__container container">
         <nav class="nav">
           <a class="logo link" href="#">Photo.by.mashyt04ka</a>
+
+          <button
+            class="mobile-btn-burger js-open-menu"
+            type="button"
+          >
+            <svg
+              width="40px"
+              height="40px"
+              aria-label="Перемикач мобільного меню"
+            >
+              <use
+                class="mobile-btn-burger__icon"
+                href="./images/icons.svg#icon-header-menu_40px"
+              ></use>
+            </svg>
+          </button>
+          
           <ul class="nav__list">
             <li class="nav__item">
               <a class="nav__link link" href="#">Локації</a>
@@ -40,6 +57,57 @@
         </nav>
       </div>
     </header>
+
+    <div class="mobile-menu js-menu-container">
+      <nav class="mobile-menu__nav">
+        <ul class="list js-menu-container">
+          <li>
+            <a class="mobile-menu__link link current" href="#">Локації</a>
+          </li>
+          <li>
+            <a class="mobile-menu__link link" href="#">Ціни</a>
+          </li>
+          <li>
+            <a class="mobile-menu__link link" href="#">Як все працює</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="mobile-container">
+        <ul class="mobile-contacts list">
+          <li class="mobile-contacts__item">
+            <a class="mobile-contacts__tel link" href="tel:+380685122192">
+              +38(068)-51-22-192</a
+            >
+          </li>
+          <li class="mobile-contacts__item">
+            <a class="mobile-contacts__email link" 
+              href="mailto:masha100795@i.ua">
+              masha100795@i.ua</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <button
+      class="mobile-menu__btn-close js-close-menu"
+      type="button"
+      aria-expanded="false"
+      >
+        <svg
+        width="40px"
+        height="40px"
+        aria-label="Перемикач мобільного меню"
+        >
+         <use
+          class="mobile-btn-close__icon"
+          href="./images/icons.svg#icon-header-close_40px"
+          ></use>
+        </svg>
+      </button>
+
+  </div>
+
     <main>
       <section class="hero">
         <div class="container">
@@ -143,5 +211,9 @@
       </section>
     </main>
     <footer class="footer"></footer>
+
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
