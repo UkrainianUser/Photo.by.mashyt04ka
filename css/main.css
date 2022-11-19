@@ -203,33 +203,21 @@ img {
 
 .mobile-contacts__item {
   margin-bottom: 26px;
+  text-align: center;
 }
 
 .mobile-contacts__tel {
   color: var(--accent-color);
   font-weight: 500;
-  font-size: 30px;
+  font-size: 26px;
   line-height: 1.17;
 }
 
 .mobile-contacts__email {
   color: var(--accent-color);
   font-weight: 500;
-  font-size: 28px;
+  font-size: 22px;
   line-height: 1.17;
-}
-
-.mobail-menu__social {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding-top: 32px;
 }
 
 .mobail-menu__social-link {
@@ -237,4 +225,20 @@ img {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.22;
+}
+
+.mobile-contacts__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.mobile-contacts__icon {
+  fill: currentColor;
 }/*# sourceMappingURL=main.css.map */
